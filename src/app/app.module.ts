@@ -5,17 +5,19 @@ import { AppComponent } from './app.component';
 import {FormsModule} from "@angular/forms";
 import { DepartementsComponent } from './departements/departements.component';
 import {HttpClientModule} from "@angular/common/http";
+import { EquipeComponent } from './equipe/equipe.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DepartementsComponent
+    DepartementsComponent,
+    EquipeComponent
   ],
     imports: [
         BrowserModule,
         AppRoutingModule,
         FormsModule,
-      HttpClientModule
+        HttpClientModule
 
     ],
   providers: [],
