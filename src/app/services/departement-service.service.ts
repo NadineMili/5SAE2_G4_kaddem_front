@@ -9,7 +9,7 @@ import {HttpClient} from "@angular/common/http";
 })
 export class DepartementServiceService {
 
-  private url = 'http://192.168.1.10:8089/Kaddem/departement';
+  private url = 'http://192.168.1.27:8089/Kaddem/departement';
 
   constructor(private http: HttpClient) { }
 
